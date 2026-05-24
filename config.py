@@ -31,8 +31,8 @@ BOT_USERNAME = getenv("BOT_USERNAME", "stopmusicbot")
 BOT_NAME = getenv("BOT_NAME", "Stop")
 ASSUSERNAME = getenv("ASSUSERNAME", "Sexyfluxy")
 
-# MongoDB
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+# MongoDB — support both MONGO_DB_URI (legacy) and MONGO_URL (Railway)
+MONGO_DB_URI = getenv("MONGO_DB_URI") or getenv("MONGO_URL")
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
