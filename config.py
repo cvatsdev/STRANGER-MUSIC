@@ -26,18 +26,18 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Bot and owner info
-OWNER_USERNAME = getenv("OWNER_USERNAME", "SHIVANSHDEVS")
-BOT_USERNAME = getenv("BOT_USERNAME", "SapnaMusicRobot")
-BOT_NAME = getenv("BOT_NAME", "SAPNA")
-ASSUSERNAME = getenv("ASSUSERNAME", "KHWAAISH_HOON")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "sexyafraid")
+BOT_USERNAME = getenv("BOT_USERNAME", "stopmusicbot")
+BOT_NAME = getenv("BOT_NAME", "Stop")
+ASSUSERNAME = getenv("ASSUSERNAME", "Sexyfluxy")
 
 # MongoDB
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-LOGGER_ID = int(getenv("LOGGER_ID", -1002018556839))
-OWNER_ID = int(getenv("OWNER_ID", 6762113050))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003802701610))
+OWNER_ID = int(getenv("OWNER_ID", 5940554521))
 
 # Heroku
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -50,8 +50,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ITSZSHUKLA")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MASTIWITHFRIENDSXD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SayaProject")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SayaProject")
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
@@ -66,7 +66,7 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "1c21247d714244ddbb09925dac565ae
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "709e1a2969664491b58200860623ef19")
 
 # Playlist limit
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 257474797))
 
 # Telegram file limits
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
@@ -93,10 +93,10 @@ DEBUG_IGNORE_LOG = True
 
 ###### IMAGE URLS ######
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/ak96mx.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/ak96mx.jpg")
-PLAYLIST_IMG_URL = "https://files.catbox.moe/lrwbj6.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/ak96mx.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/3v075h.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/881oex.jpg")
+PLAYLIST_IMG_URL = "https://files.catbox.moe/qt3yvb.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/shqvck.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/aesldg.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/aesldg.jpg"
 STREAM_IMG_URL = "https://files.catbox.moe/aesldg.jpg"
@@ -108,13 +108,13 @@ SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/aesldg.jpg"
 
 
 SHASHANK_IMG = [
-    "https://files.catbox.moe/dw0as6.jpg",
-    "https://files.catbox.moe/t2m1pv.jpg",
-    "https://files.catbox.moe/lsbotb.jpg",
-    "https://files.catbox.moe/huuy1f.jpg",
-    "https://files.catbox.moe/7vfivr.jpg",
-    "https://files.catbox.moe/dqtuv2.jpg",
-    "https://files.catbox.moe/ac3tzn.jpg"
+    "https://files.catbox.moe/3v075h.jpg",
+    "https://files.catbox.moe/shqvck.jpg",
+    "https://files.catbox.moe/qt3yvb.jpg",
+    "https://files.catbox.moe/lrwbj6.jpg",
+    "https://files.catbox.moe/qt3yvb.jpg",
+    "https://files.catbox.moe/shqvck.jpg",
+    "https://files.catbox.moe/881oex.jpg"
 ]
 
 
